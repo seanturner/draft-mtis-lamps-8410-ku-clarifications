@@ -1,0 +1,112 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2022-01-16T00:57:46.838568+00:00",
+  "repo": "seanturner/draft-mtis-lamps-8410-ku-clarifications",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [
+    {
+      "number": 1,
+      "id": "I_kwDOGqXMmc5By0L2",
+      "title": "Refactor CA KUs",
+      "url": "https://github.com/seanturner/draft-mtis-lamps-8410-ku-clarifications/issues/1",
+      "state": "OPEN",
+      "author": "seanturner",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Reformat CA KUs as numerous people have missed that keyCertSign is in the text where all the other KUs are in a list.",
+      "createdAt": "2022-01-14T16:04:59Z",
+      "updatedAt": "2022-01-14T16:04:59Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
+  "pulls": [
+    {
+      "number": 2,
+      "id": "PR_kwDOGqXMmc4xDDiq",
+      "title": "refactor CA KU text",
+      "url": "https://github.com/seanturner/draft-mtis-lamps-8410-ku-clarifications/pull/2",
+      "state": "OPEN",
+      "author": "seanturner",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Resolves #1.",
+      "createdAt": "2022-01-14T16:33:08Z",
+      "updatedAt": "2022-01-14T16:56:53Z",
+      "baseRepository": "seanturner/draft-mtis-lamps-8410-ku-clarifications",
+      "baseRefName": "main",
+      "baseRefOid": "3a0a17e9f12e10ca8b264e81d32bc2cce8d0205d",
+      "headRepository": "seanturner/draft-mtis-lamps-8410-ku-clarifications",
+      "headRefName": "refactor_ca_ku",
+      "headRefOid": "2394f0827879bf6ada34f323b8517b817bc05fc1",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOGqXMmc4y2gDS",
+          "commit": {
+            "abbreviatedOid": "2394f08"
+          },
+          "author": "cpu",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "Thanks @seanturner ",
+          "createdAt": "2022-01-14T16:56:53Z",
+          "updatedAt": "2022-01-14T16:56:53Z",
+          "comments": []
+        }
+      ]
+    }
+  ]
+}

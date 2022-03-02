@@ -135,8 +135,7 @@ and the following MUST NOT be present:
 
 If the keyUsage extension is present in a certification authority
 certificate that indicates id-Ed25519 or id-Ed448 in
-SubjectPublicKeyInfo, then the keyUsage extension MUST contain
-the keyUsage extension MUST contain:
+SubjectPublicKeyInfo, then the keyUsage extension MUST contain:
 
 ~~~
   keyCertSign

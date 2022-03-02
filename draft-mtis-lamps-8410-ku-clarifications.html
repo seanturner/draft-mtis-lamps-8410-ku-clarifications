@@ -1244,43 +1244,42 @@ the keyUsage extension <span class="bcp14">MUST</span> contain one or both of th
   cRLSign;
 </pre><a href="#section-3-11" class="pilcrow">¶</a>
 </div>
-<div class="alignLeft art-text artwork" id="section-3-12">
+<p id="section-3-12">and the following <span class="bcp14">MUST NOT</span> be present:<a href="#section-3-12" class="pilcrow">¶</a></p>
+<div class="alignLeft art-text artwork" id="section-3-13">
 <pre>
-and the following MUST NOT be present:
-
   keyEncipherment;
   dataEncipherment;
   keyAgreement;
   keyCertSign;
   encipherOnly; and
   decipherOnly.
-</pre><a href="#section-3-12" class="pilcrow">¶</a>
+</pre><a href="#section-3-13" class="pilcrow">¶</a>
 </div>
-<p id="section-3-13">If the keyUsage extension is present in a certification authority
+<p id="section-3-14">If the keyUsage extension is present in a certification authority
 certificate that indicates id-Ed25519 or id-Ed448 in
-SubjectPublicKeyInfo, then the keyUsage extension <span class="bcp14">MUST</span> contain:<a href="#section-3-13" class="pilcrow">¶</a></p>
-<div class="alignLeft art-text artwork" id="section-3-14">
+SubjectPublicKeyInfo, then the keyUsage extension <span class="bcp14">MUST</span> contain:<a href="#section-3-14" class="pilcrow">¶</a></p>
+<div class="alignLeft art-text artwork" id="section-3-15">
 <pre>
   keyCertSign
-</pre><a href="#section-3-14" class="pilcrow">¶</a>
+</pre><a href="#section-3-15" class="pilcrow">¶</a>
 </div>
-<p id="section-3-15">and zero or more of the following:<a href="#section-3-15" class="pilcrow">¶</a></p>
-<div class="alignLeft art-text artwork" id="section-3-16">
+<p id="section-3-16">and zero or more of the following:<a href="#section-3-16" class="pilcrow">¶</a></p>
+<div class="alignLeft art-text artwork" id="section-3-17">
 <pre>
   nonRepudiation;
   digitalSignature; and
   cRLSign;
-</pre><a href="#section-3-16" class="pilcrow">¶</a>
+</pre><a href="#section-3-17" class="pilcrow">¶</a>
 </div>
-<p id="section-3-17">and the following <span class="bcp14">MUST NOT</span> be present:<a href="#section-3-17" class="pilcrow">¶</a></p>
-<div class="alignLeft art-text artwork" id="section-3-18">
+<p id="section-3-18">and the following <span class="bcp14">MUST NOT</span> be present:<a href="#section-3-18" class="pilcrow">¶</a></p>
+<div class="alignLeft art-text artwork" id="section-3-19">
 <pre>
   keyEncipherment;
   dataEncipherment;
   keyAgreement;
   encipherOnly; and
   decipherOnly.
-</pre><a href="#section-3-18" class="pilcrow">¶</a>
+</pre><a href="#section-3-19" class="pilcrow">¶</a>
 </div>
 </section>
 </div>

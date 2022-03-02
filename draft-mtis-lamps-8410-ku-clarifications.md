@@ -122,9 +122,9 @@ the following MAY also be present:
   cRLSign;
 ~~~
 
-~~~
 and the following MUST NOT be present:
 
+~~~
   keyEncipherment;
   dataEncipherment;
   keyAgreement;

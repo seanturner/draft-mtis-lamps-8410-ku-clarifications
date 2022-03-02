@@ -6,11 +6,11 @@ Network Working Group                                          S. Turner
 Internet-Draft                                                     sn3rd
 Updates: 8410 (if approved)                                 S. Josefsson
 Intended status: Standards Track                                  SJD AB
-Expires: 16 July 2022                                        D. McCarney
+Expires: 3 September 2022                                    D. McCarney
                                                              Square Inc.
                                                                   T. Ito
                                                          SECOM CO., LTD.
-                                                         12 January 2022
+                                                            2 March 2022
 
 
      Clarifications for Ed25519, Ed448, X25519, and X448 Algorithm
@@ -51,7 +51,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 16 July 2022.
+   This Internet-Draft will expire on 3 September 2022.
 
 Copyright Notice
 
@@ -148,8 +148,12 @@ Table of Contents
 
    If the keyUsage extension is present in a certification authority
    certificate that indicates id-Ed25519 or id-Ed448 in
-   SubjectPublicKeyInfo, then the keyUsage extension MUST contain
-   keyCertSign, and zero, or more of the following:
+   SubjectPublicKeyInfo, then the keyUsage extension MUST contain the
+   keyUsage extension MUST contain:
+
+     keyCertSign
+
+   and zero or more of the following:
 
      nonRepudiation;
      digitalSignature; and
@@ -210,23 +214,19 @@ Authors' Addresses
 
    Sean Turner
    sn3rd
-
    Email: sean@sn3rd.com
 
 
    Simon Josefsson
    SJD AB
-
    Email: simon@josefsson.org
 
 
    Daniel McCarney
    Square Inc.
-
    Email: daniel@binaryparadox.net
 
 
    Tadahiko Ito
    SECOM CO., LTD.
-
    Email: tadahiko.ito.public@gmail.com

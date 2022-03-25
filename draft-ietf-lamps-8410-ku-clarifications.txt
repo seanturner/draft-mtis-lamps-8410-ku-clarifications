@@ -6,11 +6,11 @@ LAMPS                                                          S. Turner
 Internet-Draft                                                     sn3rd
 Updates: 8410 (if approved)                                 S. Josefsson
 Intended status: Standards Track                                  SJD AB
-Expires: 19 September 2022                                   D. McCarney
+Expires: 26 September 2022                                   D. McCarney
                                                              Square Inc.
                                                                   T. Ito
                                                          SECOM CO., LTD.
-                                                           18 March 2022
+                                                           25 March 2022
 
 
      Clarifications for Ed25519, Ed448, X25519, and X448 Algorithm
@@ -50,7 +50,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 19 September 2022.
+   This Internet-Draft will expire on 26 September 2022.
 
 Copyright Notice
 
@@ -125,15 +125,13 @@ Table of Contents
      keyCertSign; and
      cRLSign.
 
-   If the keyUsage extension is present in an end-entity certificate
-   that indicates id-Ed25519 or id-Ed448 in SubjectPublicKeyInfo, then
-   the keyUsage extension MUST contain one or both of the following:
+   If the keyUsage extension is present in an end-entity or CRL issuer
+   certificate that indicates id-Ed25519 or id-Ed448 in
+   SubjectPublicKeyInfo, then the keyUsage extension MUST contain at
+   least one of the following:
 
-     nonRepudiation; and
-     digitalSignature;
-
-   the following MAY also be present:
-
+     nonRepudiation;
+     digitalSignature; and
      cRLSign;
 
    and the following MUST NOT be present:

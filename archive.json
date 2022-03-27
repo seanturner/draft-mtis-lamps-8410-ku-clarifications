@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2022-03-20T01:02:42.387187+00:00",
+  "timestamp": "2022-03-27T01:10:30.927942+00:00",
   "repo": "lamps-wg/8410-ku-clarifications",
   "labels": [
     {
@@ -64,6 +64,38 @@
       "createdAt": "2022-01-14T16:04:59Z",
       "updatedAt": "2022-03-02T04:57:11Z",
       "closedAt": "2022-03-02T04:57:11Z",
+      "comments": []
+    },
+    {
+      "number": 5,
+      "id": "I_kwDOGqXMmc5GYEib",
+      "title": "CRL Issuer",
+      "url": "https://github.com/lamps-wg/8410-ku-clarifications/issues/5",
+      "state": "CLOSED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Corey Bonnell noted that CRL issuer needs to be addressed in this [email](https://mailarchive.ietf.org/arch/msg/spasm/ZVxbmx7k0vKtGe55SCBDIICTsjE/).",
+      "createdAt": "2022-03-25T12:05:26Z",
+      "updatedAt": "2022-03-25T13:14:14Z",
+      "closedAt": "2022-03-25T13:14:14Z",
+      "comments": []
+    },
+    {
+      "number": 7,
+      "id": "I_kwDOGqXMmc5GYE78",
+      "title": "Add Acknowledgements",
+      "url": "https://github.com/lamps-wg/8410-ku-clarifications/issues/7",
+      "state": "OPEN",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Include acknowledgements.",
+      "createdAt": "2022-03-25T12:07:10Z",
+      "updatedAt": "2022-03-25T12:07:10Z",
+      "closedAt": null,
       "comments": []
     }
   ],
@@ -190,6 +222,48 @@
           "body": ":rocket:",
           "createdAt": "2022-03-02T16:24:58Z",
           "updatedAt": "2022-03-02T16:24:58Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "id": "PR_kwDOGqXMmc41A35H",
+      "title": "Tweak to support CRL Issuer",
+      "url": "https://github.com/lamps-wg/8410-ku-clarifications/pull/6",
+      "state": "MERGED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Resolves #5.",
+      "createdAt": "2022-03-25T12:06:23Z",
+      "updatedAt": "2022-03-25T13:14:14Z",
+      "baseRepository": "lamps-wg/8410-ku-clarifications",
+      "baseRefName": "main",
+      "baseRefOid": "f70b7582d65c7ab17ebec4018c21658a9abdc34b",
+      "headRepository": "lamps-wg/8410-ku-clarifications",
+      "headRefName": "cRLIssuer",
+      "headRefOid": "83a942a7ef4b9a7d0cc429c19a7beb1402f541ae",
+      "closedAt": "2022-03-25T13:14:14Z",
+      "mergedAt": "2022-03-25T13:14:14Z",
+      "mergedBy": "seanturner",
+      "mergeCommit": {
+        "oid": "5a9c43d30da35eccd26036ce8bfdc5456f8104c3"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOGqXMmc427rwW",
+          "commit": {
+            "abbreviatedOid": "83a942a"
+          },
+          "author": "cpu",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "Makes sense to me. Thanks!",
+          "createdAt": "2022-03-25T13:05:01Z",
+          "updatedAt": "2022-03-25T13:05:01Z",
           "comments": []
         }
       ]

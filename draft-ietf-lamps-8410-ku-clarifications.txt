@@ -6,11 +6,11 @@ LAMPS                                                          S. Turner
 Internet-Draft                                                     sn3rd
 Updates: 8410 (if approved)                                 S. Josefsson
 Intended status: Standards Track                                  SJD AB
-Expires: 26 September 2022                                   D. McCarney
+Expires: 3 October 2022                                      D. McCarney
                                                              Square Inc.
                                                                   T. Ito
                                                          SECOM CO., LTD.
-                                                           25 March 2022
+                                                            1 April 2022
 
 
      Clarifications for Ed25519, Ed448, X25519, and X448 Algorithm
@@ -50,7 +50,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 26 September 2022.
+   This Internet-Draft will expire on 3 October 2022.
 
 Copyright Notice
 
@@ -204,7 +204,8 @@ Table of Contents
 
 Acknowledgments
 
-   TODO acknowledge.
+   We would like to thank Russ Housley, Mike Jenkins, and Corey Bonnell
+   for the comments.
 
 Authors' Addresses
 

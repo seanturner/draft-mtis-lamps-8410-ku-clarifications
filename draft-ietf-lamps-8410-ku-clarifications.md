@@ -169,4 +169,5 @@ This document has no IANA actions.
 # Acknowledgments
 {:numbered="false"}
 
-TODO acknowledge.
+We would like to thank Russ Housley, Mike Jenkins, and Corey Bonnell
+for the comments.

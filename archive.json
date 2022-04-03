@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2022-03-27T01:10:30.927942+00:00",
+  "timestamp": "2022-04-03T01:12:36.339915+00:00",
   "repo": "lamps-wg/8410-ku-clarifications",
   "labels": [
     {
@@ -87,15 +87,15 @@
       "id": "I_kwDOGqXMmc5GYE78",
       "title": "Add Acknowledgements",
       "url": "https://github.com/lamps-wg/8410-ku-clarifications/issues/7",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "seanturner",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Include acknowledgements.",
       "createdAt": "2022-03-25T12:07:10Z",
-      "updatedAt": "2022-03-25T12:07:10Z",
-      "closedAt": null,
+      "updatedAt": "2022-04-01T03:28:28Z",
+      "closedAt": "2022-04-01T03:28:28Z",
       "comments": []
     }
   ],
@@ -267,6 +267,34 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 8,
+      "id": "PR_kwDOGqXMmc41dSjk",
+      "title": "Adding acknowledgement",
+      "url": "https://github.com/lamps-wg/8410-ku-clarifications/pull/8",
+      "state": "MERGED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Resolves #7.",
+      "createdAt": "2022-04-01T03:26:43Z",
+      "updatedAt": "2022-04-01T03:28:28Z",
+      "baseRepository": "lamps-wg/8410-ku-clarifications",
+      "baseRefName": "main",
+      "baseRefOid": "5a9c43d30da35eccd26036ce8bfdc5456f8104c3",
+      "headRepository": "lamps-wg/8410-ku-clarifications",
+      "headRefName": "acks",
+      "headRefOid": "5a882d47f0baf925a25e1768f53ab9ae597fdabf",
+      "closedAt": "2022-04-01T03:28:28Z",
+      "mergedAt": "2022-04-01T03:28:28Z",
+      "mergedBy": "seanturner",
+      "mergeCommit": {
+        "oid": "6f6da7776138cdff4dac6deca76671776f206b4f"
+      },
+      "comments": [],
+      "reviews": []
     }
   ]
 }

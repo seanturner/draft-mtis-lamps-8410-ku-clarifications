@@ -107,7 +107,7 @@ and the following MUST NOT be present:
   cRLSign.
 ~~~
 
-If the keyUsage extension is present in an end-entity or CRL issuer
+If the keyUsage extension is present in an end-entity
 certificate that indicates id-Ed25519 or id-Ed448 in
 SubjectPublicKeyInfo, then the keyUsage extension MUST contain at least
 one of the following:
@@ -128,6 +128,38 @@ and the following MUST NOT be present:
   encipherOnly; and
   decipherOnly.
 ~~~
+
+If the keyUsage extension is present in a CRL issuer certificate that
+indicates id-Ed25519 or id-Ed448 in SubjectPublicKeyInfo, then the
+keyUsage extension MUST contain:
+
+~~
+  cRLSign;
+~~
+
+and zero or more of the following:
+
+~~
+  nonRepudiation; and
+  digitalSignature;
+~~
+
+and the following MUST NOT be present:
+
+~~
+  keyEncipherment;
+  dataEncipherment;
+  keyAgreement;
+  encipherOnly; and
+  decipherOnly;
+~~
+
+and if the CRL issuer is also a certification authority, then the
+keyUsage extension MUST also contain:
+
+~~
+  keyCertSign.
+~~
 
 If the keyUsage extension is present in a certification authority
 certificate that indicates id-Ed25519 or id-Ed448 in
